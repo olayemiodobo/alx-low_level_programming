@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /**
- * calloc - function that allocates memory for an array
+ * _calloc - function that allocates memory for an array
  * @nmemb: number of members
  * @size: size
  *
  * Return: ...
  */
-void *calloc(unsigned int nmemb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	int i = 0, l = 0;
 	char *p;
